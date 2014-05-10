@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<!-- xml-stylesheet type="text/xsl" href="../xsl/boxers.xslt"?-->
+<!-- B019418 Yuncong Zou -->
+<!-- ISC355 - Markup Languages for the Web -->
+
+<!-- Define namespace "boxing data","b","c","p","title" and "g"-->
+<boxing:data xmlns:boxing="http://www.boxing.com/data" 			   
+			 xmlns:b="http://www.boxing.com/boxer" 
+			 xmlns:c="http://www.boxing.com/compeition" 	
+			 xmlns:p="http://www.boxing.com/champions"
+			 xmlns:title="http://www.boxing.com/titles"
+			 xmlns:g="http://www.boxing.com/gym"		
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 			 
+			 xsi:schemaLocation="" >
+			 
+<!-- Boxer's Profile Data Tree -->
+    <b:boxer b:boxerId="khan">
+		<b:name>Amir Khan</b:name>
+		<b:nickname>King Khan</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>27</b:age>
+		<b:rated>Lightweight</b:rated>
+		<b:height>5 ft 9 in</b:height>
+		<b:born>1986-12-08</b:born>
+		<b:country>United Kingdom</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>31</b:total_fight>
+		<b:wins>28</b:wins>
+		<b:ko>19</b:ko>
+		<b:losses>3</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>khan.jpg</b:image>
+		<b:profile>Amir Khan is the youngest British Olympic boxing medalist,
+ 			winning silver at the 2004 Athens Olympics at the age of 17. 
+			He is also one of the youngest British world champions ever, 
+			winning the WBA Light Welterweight title at age 22, 
+			the first-ever British Pakistani boxing major world champion, 
+			the second overall after Jawaid Khaliq, as well as the first Punjabi 
+			descent world boxing champion.
+		</b:profile>
+	</b:boxer>
+	<b:boxer b:boxerId="floyd">
+		<b:name>Floyd Mayweather,Jr</b:name>
+		<b:nickname>Pretty Boy</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>37</b:age>
+		<b:rated>Super featherweight</b:rated>
+		<b:height>5 ft 8 in</b:height>
+		<b:born>1977-02-24</b:born>
+		<b:country>United States</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>45</b:total_fight>
+		<b:wins>45</b:wins>
+		<b:ko>26</b:ko>
+		<b:losses>0</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>mayweather.jpg</b:image>
+		<b:profile>Mayweather is the WBC welterweight champion,WBA (Super) super welterweight champion,
+ 				WBC Super welterweight champion, recipient of the WBC diamond super welterweight belt,
+				current Ring #1 ranked welterweight,and Ring #1 ranked junior middleweight.
+				He is also rated as the best pound-for-pound boxer in the world by many sporting news and boxing websites,
+				including Ring, Sports Illustrated.
+		</b:profile>
+	</b:boxer>
+	<b:boxer b:boxerId="manny">
+		<b:name>Manny Pacquiao</b:name>
+		<b:nickname>Pac-Man</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>35</b:age>
+		<b:rated>Flyweight</b:rated>
+		<b:height>5 ft 6 in</b:height>
+		<b:born>1978-12-17</b:born>
+		<b:country>Philippines</b:country>
+		<b:stance>Southpaw</b:stance>
+		<b:total_fight>63</b:total_fight>
+		<b:wins>56</b:wins>
+		<b:ko>38</b:ko>
+		<b:losses>5</b:losses>
+		<b:draws>2</b:draws>
+		<b:image>manny.jpg</b:image>
+		<b:profile>Manny was named "Fighter of the Decade" for the 2000s (decade) by the Boxing Writers Association of America (BWAA), 
+			  World Boxing Council (WBC) and World Boxing Organization (WBO).
+			  He is also a three-time The Ring and BWAA "Fighter of the Year," winning the award in 2006, 2008 and 2009, 
+			  and the Best Fighter ESPY Award in 2009 and 2011.
+		</b:profile>
+	</b:boxer>
+	<b:boxer b:boxerId="danny">
+		<b:name>Danny Oscar Garcia</b:name>
+		<b:nickname>Swift</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>26</b:age>
+		<b:rated>Light Welterweight</b:rated>
+		<b:height>5 ft 8.5 in</b:height>
+		<b:born>1988-03-20</b:born>
+		<b:country>Pennsylvania</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>28</b:total_fight>
+		<b:wins>28</b:wins>
+		<b:ko>16</b:ko>
+		<b:losses>0</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>garcia.jpg</b:image>
+		<b:profile>García identified with his heritage, stating early in his career the desire 
+			  to become the "next great Puerto Rican fighter".
+			  Garcia admired Boxing Hall of Famer Carlos Ortíz as his favorite boxer and considered Ortíz's fight against Lenny Matthews in
+              Philadelphia among the most memorable he had ever witnessed.
+        </b:profile>	
+	</b:boxer>
+	<b:boxer b:boxerId="leona">
+		<b:name>Leona Brown</b:name>
+		<b:nickname>Downtown</b:nickname>
+		<b:gender>female</b:gender>
+		<b:age>31</b:age>
+		<b:rated>Welterweight</b:rated>
+		<b:height>5 ft 1 in</b:height>
+		<b:born>1970-01-26</b:born>
+		<b:country>United States</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>11</b:total_fight>
+		<b:wins>0</b:wins>
+		<b:ko>0</b:ko>
+		<b:losses>0</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>leona.jpg</b:image>
+		<b:profile>Leona Brown is a female boxer who is the WIBC world Bantamweight champion. 
+						Brown was an award winning amateur boxer, winning the New York state golden gloves award
+						before turning professional, on September 27. 1997, beating Judy Mayrand by a four round unanimous 
+						decision in Germantown, Pennsylvania
+        </b:profile>	
+	</b:boxer>
+	<b:boxer b:boxerId="zab">
+		<b:name>Zab Judah</b:name>
+		<b:nickname>Super</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>36</b:age>
+		<b:rated>Light Welterweight</b:rated>
+		<b:height>6ft 1 in</b:height>
+		<b:born>1977-10-27</b:born>
+		<b:country>United State</b:country>
+		<b:stance>Southpaw</b:stance>
+		<b:total_fight>51</b:total_fight>
+		<b:wins>42</b:wins>
+		<b:ko>29</b:ko>
+		<b:losses>9</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>judah.jpg</b:image>
+		<b:profile>Judah began boxing at the age of six and compiled an amateur record of 1105. 
+			He was a two-time US national champion and three-time New York Golden Gloves Champion. 
+			He also won the 1996 PAL National Championship. Judah beat Ishe Smith and Hector Camacho, Jr., 
+			but lost to David Díaz in the finals of the Olympic trials, thus failing to qualify for the Olympic boxing team.
+		</b:profile>
+	</b:boxer>
+	<b:boxer b:boxerId="saul">
+		<b:name>Saul Alvarez</b:name>
+		<b:nickname>Canelo</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>23</b:age>
+		<b:rated>Light Middleweight</b:rated>
+		<b:height>5ft 9 in</b:height>
+		<b:born>1990-07-18</b:born>
+		<b:country>Mexico</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>45</b:total_fight>
+		<b:wins>43</b:wins>
+		<b:ko>31</b:ko>
+		<b:losses>1</b:losses>
+		<b:draws>1</b:draws>
+		<b:image>saul.jpg</b:image>
+		<b:profile>Álvarez started boxing at 13 years old, after watching his older brother Rigoberto Álvarez's debut as a professional boxer.
+			  	   In 2004 he won the silver medal at the Junior Mexican National championships, held in Sinaloa. 
+			       He became the 2005 Junior Mexican National Boxing Champion in Tuxtla Gutierrez, Chiapas, at the age of 15.
+                   Even though Álvarez turned pro young, he had 20 amateur bouts.
+        </b:profile>
+	</b:boxer>
+	<b:boxer b:boxerId="marcos">
+		<b:name>Marcos Rene Maidana</b:name>
+		<b:nickname>Chino</b:nickname>
+		<b:gender>male</b:gender>
+		<b:age>30</b:age>
+		<b:rated>Welterweight</b:rated>
+		<b:height>5ft 7 in</b:height>
+		<b:born>1983-07-17</b:born>
+		<b:country>Argentina</b:country>
+		<b:stance>Orthodox</b:stance>
+		<b:total_fight>38</b:total_fight>
+		<b:wins>35</b:wins>
+		<b:ko>31</b:ko>
+		<b:losses>3</b:losses>
+		<b:draws>0</b:draws>
+		<b:image>marcos.jpg</b:image>
+		<b:profile>Marcos currently has a professional record of 353, with his only professional losses coming against Andreas Kotelnik, 
+		          Amir Khan and Devon Alexander, all by decision. His most famous fight and biggest win was against Adrien Broner on 14 ecember 2013, 
+		          where Maidana handed Broner his first defeat,knocked him down twice and captured his WBA Welterweight title in the process.
+		</b:profile>
+	</b:boxer>
+<!-- Competition Schedule Data Tree -->
+	<c:competition c:competitionId="1">
+		<c:event>Michael Perez vs. Jorge Romero</c:event>
+		<c:date>2014-05-03</c:date>
+		<c:time>14:30:00</c:time>
+		<c:length>2</c:length>
+		<c:title>Light heavyweight WBA</c:title>
+		<c:location>Coliseo Ruben Rodriguez</c:location>
+	</c:competition>
+	<c:competition c:competitionId="2">
+		<c:event>Ishe Smith vs. Ryan Davis</c:event>
+		<c:date>2014-05-02</c:date>
+		<c:time>14:30:00</c:time>
+		<c:length>2</c:length>
+		<c:title>Super lightweight WBC</c:title>
+		<c:location>Hard Rock Hotel</c:location>
+	</c:competition>
+	<c:competition c:competitionId="3">
+		<c:event>Floyd Mayweather Jr.vs Marcos Maidana</c:event>
+		<c:date>2014-05-03</c:date>
+		<c:time>19:00:00</c:time>
+		<c:length>1</c:length>
+		<c:title>Super Welterweight IBF</c:title>
+		<c:location>MGM Grand Garden Arena</c:location>
+	</c:competition>
+	<c:competition c:competitionId="4">
+		<c:event>Amir Khan vs. Danny Garcia</c:event>
+		<c:date>2014-05-06</c:date>
+		<c:time>20:00:00</c:time>
+		<c:length>2</c:length>
+		<c:title>Lightweight WBA</c:title>
+		<c:location>House of Blues</c:location>
+	</c:competition>
+	<c:competition c:competitionId="5">
+		<c:event>Ishe Smith vs. Ryan Davis</c:event>
+		<c:date>2014-05-11</c:date>
+		<c:time>17:00:00</c:time>
+		<c:length>2</c:length>
+		<c:title>Super Welterweight IBF</c:title>
+		<c:location>MGM Grand Garden Arena</c:location>
+	</c:competition>
+	<c:competition c:competitionId="6">
+		<c:event>Canelo Alvarez vs. Erislandy Lara</c:event>
+		<c:date>2014-05-20</c:date>
+		<c:time>19:25:00</c:time>
+		<c:length>1</c:length>
+		<c:title>Featherweight WBO</c:title>
+		<c:location>Hard Rock Hotel</c:location>
+	</c:competition>
+	<c:competition c:competitionId="7">
+		<c:event>Manuel Avila vs.David de la Mora</c:event>
+		<c:date>2014-05-30</c:date>
+		<c:time>20:25:00</c:time>
+		<c:length>1</c:length>
+		<c:title>HeavyWeight WBO</c:title>
+		<c:location>House of Blues</c:location>
+	</c:competition>
+	
+<!-- Current Champions Data Tree -->
+	<p:champions p:championsId="1">
+		<p:division>Heavyweight</p:division>
+		<p:kg>90.7+kg</p:kg>
+		<p:titles>
+			<title:champion_profile>
+				<title:belt>WBA</title:belt>
+				<title:name>Wladimir Klitschko</title:name>
+				<title:country>Ukraine</title:country>
+				<title:image>ukraine.png</title:image>
+				<title:record>62-3-0-0</title:record>
+				<title:date>2011-06-21</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>WBC</title:belt>
+				<title:name>vacant</title:name>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>IBF</title:belt>
+				<title:name>Wladimir Klitschko</title:name>
+				<title:country>Ukraine</title:country>
+				<title:image>ukraine.png</title:image>
+				<title:record>62-3-0-0</title:record>
+				<title:date>2006-04-22</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>WBO</title:belt>
+				<title:name>Wladimir Klitschko</title:name>
+				<title:country>Ukraine</title:country>
+				<title:image>ukraine.png</title:image>
+				<title:record>62-3-0-0</title:record>
+				<title:date>2006-05-27</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>The Ring</title:belt>
+				<title:name>Wladimir Klitschko</title:name>
+				<title:country>Ukraine</title:country>
+				<title:image>ukraine.png</title:image>
+				<title:record>62-3-0-0</title:record>
+				<title:date>2009-06-20</title:date>
+			</title:champion_profile>
+		</p:titles>
+	</p:champions>
+	
+	<p:champions p:championsId="2">
+		<p:division>Cruiserweight</p:division>
+		<p:kg>90.7kg</p:kg>
+		<p:titles>
+			<title:champion_profile>
+				<title:belt>WBA</title:belt>
+				<title:name>Denis Lebedev</title:name>
+				<title:country>Russia</title:country>
+				<title:image>russia.png</title:image>
+				<title:record>25-2-0-0</title:record>
+				<title:date>2012-10-30</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>WBC</title:belt>
+				<title:name>Krzysztof Wlodarczyk</title:name>
+				<title:country>Poland</title:country>
+				<title:image>poland.png</title:image>
+				<title:record>49-2-1-0</title:record>
+				<title:date>2012-05-15</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>IBF</title:belt>
+				<title:name>Yoan Pablo Hernandez</title:name>
+				<title:country>Cuba</title:country>
+				<title:image>cuba.png</title:image>
+				<title:record>28-1-0-0</title:record>
+				<title:date>2011-10-01</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>WBO</title:belt>
+				<title:name>Marco Huck</title:name>
+				<title:country>Germany</title:country>
+				<title:image>germany.png</title:image>
+				<title:record>37-2-1-0</title:record>
+				<title:date>2009-08-29</title:date>
+			</title:champion_profile>
+			<title:champion_profile>
+				<title:belt>The Ring</title:belt>
+				<title:name>Yoan Pablo Hernandez</title:name>
+				<title:country>Cuba</title:country>
+				<title:image>cuba.png</title:image>
+				<title:record>28-1-0-0</title:record>
+				<title:date>2011-10-01</title:date>	
+			</title:champion_profile>
+		</p:titles>
+	</p:champions>
+	
+	<p:champions p:championsId="3">
+		<p:division>Light Heavyweight</p:division>
+		<p:kg>79.4kg</p:kg>
+	    <p:titles>
+	    <title:champion_profile>
+			<title:belt>WBA</title:belt>
+			<title:name>Bernard Hopkins</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>55-6-2-2</title:record>
+			<title:date>2014-04-19</title:date>
+ 		</title:champion_profile>
+ 		 <title:champion_profile>
+			<title:belt>WBC</title:belt>
+			<title:name>Adonis Stevenson</title:name>
+			<title:country>Canada</title:country>
+			<title:image>canada.png</title:image>
+			<title:record>23-1-0-0</title:record>
+			<title:date>2013-06-09</title:date>
+		 </title:champion_profile>
+		 <title:champion_profile>
+			<title:belt>IBF</title:belt>
+			<title:name>Bernard Hopkins</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>55-6-2-2</title:record>
+			<title:date>2013-04-09</title:date>	
+		 </title:champion_profile>
+		<title:champion_profile>
+			<title:belt>WBO</title:belt>
+			<title:name>Sergey Kovalev</title:name>
+			<title:country>Russia</title:country>
+			<title:image>state.png</title:image>
+			<title:record>24-0-1-0</title:record>
+			<title:date>2009-04-06</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>The Ring</title:belt>
+			<title:name>Adonis Stevenson</title:name>
+			<title:country>Canada</title:country>
+			<title:image>canada.png</title:image>
+			<title:record>23-1-0-0</title:record>
+			<title:date>2013-03-04</title:date>	
+		 </title:champion_profile>
+	   </p:titles>
+	</p:champions>
+	
+	<p:champions p:championsId="4">
+		<title:division>Middle Weight</title:division>
+		<title:kg>72.6kg</title:kg>
+		<p:titles>
+		<title:champion_profile>
+			<title:belt>WBA</title:belt>
+			<title:name>Gennady Golovkin</title:name>
+			<title:country>Kazakhstan</title:country>
+			<title:image>kaza.png</title:image>
+			<title:record>29-0-0-0</title:record>
+			<title:date>2010-09-19</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>WBC</title:belt>
+			<title:name>Sergio Martinez</title:name>
+			<title:country>Argentina</title:country>
+			<title:image>argentina.png</title:image>
+			<title:record>51-2-2-0</title:record>
+			<title:date>2012-09-15</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>IBF</title:belt>
+			<title:name>Felix Sturm</title:name>
+			<title:country>Germany</title:country>
+			<title:image>germany.png</title:image>
+			<title:record>39-3-2-1</title:record>
+			<title:date>2013-04-19</title:date>	
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>WBO</title:belt>
+			<title:name>Peter Quillin</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>31-0-0-0</title:record>
+			<title:date>2012-10-20</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>The Ring</title:belt>
+			<title:name>Sergio Martinez</title:name>
+			<title:country>Argentina</title:country>
+			<title:image>argentina.png</title:image>
+			<title:record>51-2-2-0</title:record>
+			<title:date>2010-11-20</title:date>
+		</title:champion_profile>
+	  </p:titles>
+	</p:champions>
+	
+	<p:champions p:championsId="5">
+		<p:division>Super Welterweight</p:division>
+		<p:kg>69.9kg</p:kg>
+		<p:titles>
+		<title:champion_profile>
+			<title:belt>WBA</title:belt>
+			<title:name>Floyd Mayweather</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>45-0-0-0</title:record>
+			<title:date>2010-09-20</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>WBC</title:belt>
+			<title:name>Floyd Mayweather</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>45-0-0-0</title:record>
+			<title:date>2013-11-09</title:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<p:belt>IBF</p:belt>
+			<p:name>Carlos Amado Molina</p:name>
+			<p:country>Mexico</p:country>
+			<title:image>mexico.png</title:image>
+			<p:record>22-5-2-0</p:record>
+			<p:date>2012-02-20</p:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<p:belt>WBO</p:belt>
+			<p:name>Demetrius Andrade</p:name>
+			<p:country>United States</p:country>
+			<title:image>state.png</title:image>
+			<p:record>20-0-0-0</p:record>
+			<p:date>2014-01-20</p:date>
+		</title:champion_profile>
+		<title:champion_profile>
+			<title:belt>The Ring</title:belt>
+			<title:name>Floyd Mayweather</title:name>
+			<title:country>United States</title:country>
+			<title:image>state.png</title:image>
+			<title:record>45-0-0-0</title:record>
+			<title:date>2011-03-20</title:date>
+		</title:champion_profile>
+	   </p:titles>
+	</p:champions>
+		
+<!-- Gym Rankings Around the World -->
+		
+	<g:gymranking g:gymrankingId="1">
+			<g:rank>1</g:rank>
+			<g:manager>The Art of Pugilism</g:manager>
+			<g:location>Georgia</g:location>
+			<g:titles>498</g:titles>
+			<g:earning>37</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="2">
+			<g:rank>2</g:rank>
+			<g:manager>Powerlille &amp; The Witnesses of Anfield</g:manager>
+			<g:location>Ohio</g:location>
+			<g:titles>328</g:titles>
+			<g:earning>34</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="3">
+			<g:rank>3</g:rank>
+			<g:manager>Pain,Power and Glory</g:manager>
+			<g:location>Ontario</g:location>
+			<g:titles>310</g:titles>
+			<g:earning>37</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="4">
+			<g:rank>4</g:rank>
+			<g:manager>The Art of Pugilism</g:manager>
+			<g:location>Georgia</g:location>
+			<g:titles>400</g:titles>
+			<g:earning>43</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="5">
+			<g:rank>5</g:rank>
+			<g:manager>Apollo</g:manager>
+			<g:location>London</g:location>
+			<g:titles>210</g:titles>
+			<g:earning>30</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="6">
+			<g:rank>6</g:rank>
+			<g:manager>Mean Street</g:manager>
+			<g:location>Wisconsin</g:location>
+			<g:titles>498</g:titles>
+			<g:earning>37</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="7">
+			<g:rank>7</g:rank>
+			<g:manager>The Art of Pugilism</g:manager>
+			<g:location>Georgia</g:location>
+			<g:titles>110</g:titles>
+			<g:earning>24</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="8">
+			<g:rank>8</g:rank>
+			<g:manager>Sonic Boom Boxing</g:manager>
+			<g:location>New York</g:location>
+			<g:titles>230</g:titles>
+			<g:earning>31</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="9">
+			<g:rank>9</g:rank>
+			<g:manager>One-Winged Angel</g:manager>
+			<g:location>London</g:location>
+			<g:titles>500</g:titles>
+			<g:earning>38</g:earning>
+	</g:gymranking>
+	<g:gymranking g:gymrankingId="10">
+			<g:rank>10</g:rank>
+			<g:manager>Flat Out</g:manager>
+			<g:location>Vatican City</g:location>
+			<g:titles>137</g:titles>
+			<g:earning>32</g:earning>
+	</g:gymranking>
+		<g:gymranking g:gymrankingId="11">
+			<g:rank>11</g:rank>
+			<g:manager>Rotmo</g:manager>
+			<g:location>Maryland</g:location>
+			<g:titles>620</g:titles>
+			<g:earning>40</g:earning>
+	</g:gymranking>
+		<g:gymranking g:gymrankingId="12">
+			<g:rank>12</g:rank>
+			<g:manager>Comet Fighters</g:manager>
+			<g:location>Iowa</g:location>
+			<g:titles>111</g:titles>
+			<g:earning>80</g:earning>
+	</g:gymranking>
+		<g:gymranking g:gymrankingId="13">
+			<g:rank>13</g:rank>
+			<g:manager>Omega Tetra</g:manager>
+			<g:location>Dublin</g:location>
+			<g:titles>276</g:titles>
+			<g:earning>23</g:earning>
+	</g:gymranking>
+		<g:gymranking g:gymrankingId="14">
+			<g:rank>14</g:rank>
+			<g:manager>Face to Face</g:manager>
+			<g:location>Oregon</g:location>
+			<g:titles>54</g:titles>
+			<g:earning>11</g:earning>
+	</g:gymranking>
+		<g:gymranking g:gymrankingId="15">
+			<g:rank>15</g:rank>
+			<g:manager>Days of Future Past</g:manager>
+			<g:location>Manchester</g:location>
+			<g:titles>230</g:titles>
+			<g:earning>14</g:earning>
+	</g:gymranking>
+</boxing:data>	
+			
+			
+			
+		

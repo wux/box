@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Fighters</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+ <script type="text/javascript" src="js/script.js"></script> 
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+	<script type="text/javascript">
+		$(document).ready (
+			function() {
+				outputXML('content2', 'boxing.xml', 'boxers.xsl');
+			}
+		)
+	</script> 
+
+ </head>
+
+<body>
+  <div id="main">
+	<div id="site_content">
+      <div id="site_heading">
+	    <h1>Famous Fighters</h1>	
+	    <h2>Boxing brings out my aggressive instinct, not necessarily a killer instinct</h2>
+	  </div><!--close site_heading-->
+	  <div id="header">
+	    <div id="menubar">
+          <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="fighters.html">Famous Fighters</a></li>
+            <li><a href="competition.html">Competitions</a></li>
+            <li><a href="champion.html">Current Champions</a></li>
+            <li><a href="gym.html">Worldwide Gym Ranking</a></li>
+          </ul>
+        </div><!--close menubar-->
+      </div><!--close header-->	  			  
+	  <div id="content">
+	  		  
+	    
+		<div id="content2" class="content_item">
+        </div><!--close content_item-->
+	  </div><!--close content-->	
+
+      <div class="sidebar_container">  		  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h1>News Update<h1>
+            <h2>Mayweather vs. Marcos Press Conference Quotes</h2>
+			<h4>May 2014</h4>
+		      <a href="#">Read more</a>
+           </div><!--close sidebar_item--> 
+         </div><!--close sidebar-->     		
+	    <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Perez vs.Jorge Official Weights</h2>
+		  	<h4>May 2014</h4>
+		      <a href="#">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Oscar De la Hoya interested in buying a piece of LA Clippers</h2>
+			<h4>June 2014</h4>
+		      <a href="#">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  
+      </div><!--close sidebar_container-->		  
+	</div><!--close site_content-->	
+	<div id="footer">  
+      <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> | <a>Loughborough Univeristy</a> | 
+  </div><!--close main-->	
+</body>
+</html>
