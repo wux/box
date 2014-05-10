@@ -387,3 +387,38 @@ table.table1{
 .table1 tbody span.check::before{
     content : url(../images/check0.png)
 }
+
+#boxer-info {
+ position: absolute
+ overflow: auto
+ padding:10px;
+ border:1px solid #bbb;
+ float:left;
+}
+
+.views-field-field-images-fid img {
+  padding:2px;
+  margin: 0 10px 10px 0;
+  float:left;
+  background-color:#fff;
+  border-right:1px solid #666;
+  border-bottom:1px solid #666;
+}
+
+li {
+  list-style:none;
+  clear:both;
+  padding:0;
+  margin:0 0 10px 0;
+  border-bottom:1px solid #ccc;
+}
+
+.views-field-title {
+  font-weight:bold;
+  padding:0 0 5px 0;
+}
+
+.views-field-field-teaser-value {
+  font-size:13px;
+  margin-left:297px;
+}
